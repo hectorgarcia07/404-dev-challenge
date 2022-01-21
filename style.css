@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.container {
+  margin: 1.25rem 3vw 0;
+}
+
+.title {
+  margin-bottom: 4rem;
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.574rem;
+  color: #333333;
+}
+
+.img-container {
+  text-align: center;
+  margin: 4rem 0 3.75rem;
+  max-width: 286px;
+  margin: 0 auto;
+}
+
+.scarecrow-img {
+  max-width: 100%;
+}
+
+.error-title {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.481em;
+  letter-spacing: -0.012em;
+  color: #333333;
+
+  margin-bottom: 1.875rem;
+}
+
+.error-description {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.481em;
+  letter-spacing: 0.031em;
+  color: #4f4f4f;
+  margin-bottom: 4.125rem;
+}
+
+.homepage-btn {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.481em;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #333333;
+
+  padding: 1.714em 3.071em 1.643em;
+  cursor: pointer;
+  border: none;
+}
+
+.main-content {
+  margin-bottom: 7.125rem;
+}
+
+.homepage-btn:hover {
+  background: #5c5c5c;
+}
+
+.footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.219em;
+  color: #bdbdbd;
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    margin: 2.3rem 4vw 0;
+    max-width: 1440px;
+    max-height: 1080px;
+  }
+
+  .main-content {
+    display: flex;
+  }
+
+  .title {
+    margin-bottom: 6rem;
+  }
+
+  .error-title {
+    margin: 0;
+    font-size: 4rem;
+    line-height: 1.484em;
+    letter-spacing: -0.009em;
+    max-width: 9.156em;
+  }
+
+  .img-container {
+    max-width: 539px;
+    margin: 0;
+  }
+
+  .error-description {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    letter-spacing: -0.023em;
+    max-width: 15.875em;
+  }
+
+  .main-content {
+    margin-bottom: 11rem;
+    justify-content: space-between;
+  }
+}
